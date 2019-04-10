@@ -1,0 +1,11 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="wishUser" class="beans.Wish">
+        <property name="name" value="Katheer"/>
+        <property name="wish" value="Good Morning"/>
+    </bean>
+
+</beans>
+
